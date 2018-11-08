@@ -107,7 +107,10 @@ header .profile-image:hover {
 }
 
 .len {
+  /* opacity: 0.2; */
+  background: white;
   background: linear-gradient(0deg, white, transparent),
+              linear-gradient(180deg, white, transparent),
               url('images/canflag.png') no-repeat center;
   background-size: cover;
 }
