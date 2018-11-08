@@ -58,7 +58,7 @@ a:hover {
 header {
   text-align: center;
   background: linear-gradient(0deg,black, transparent),
-              url('images/moto2.jpg') no-repeat center;
+              url('../images/moto2.jpg') no-repeat center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,76 +67,19 @@ header {
 header {
   line-height: 1.5;
 }
-header .profile-image {
-  margin-top: 250px;
-  margin-right: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid limegreen;
-  transition: all .2s;
-}
-header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
-}
-.tag {
-  background-color: #efefef;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
-  display: table;
-  margin: 10px auto;
 
-}
-.location {
-  background-color: #222;
-  color: #efefef;
-}
-.card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
-}
-.card:hover {
-  border-color: limegreen;
-}
-
-.len {
-  background: linear-gradient(0deg, white, transparent),
-              url('images/canflag.png') no-repeat center;
+.card .len {
+  background-color: black;
+  background: url('../images/moto1.jpg') no-repeat center;
   background-size: cover;
-}
-
-.m1 {
-  background: linear-gradient(0deg, grey, transparent),
-              linear-gradient(90deg, black, transparent),
-              linear-gradient(270deg, white, transparent),
-              url('images/lenny.jpg') no-repeat center;
-  background-size: cover;
-  color: white;
-}
-
-ul.skills {
-  padding: 0;
+  height: 500px;
+  width: 900px;
   text-align: center;
+
 }
 
-.skills li {
-  border-radius: 6px;
-  display: inline-block;
-  background: #ff9904;
-  color: white;
-  padding: 5px 10px;
-  margin: 2px;
-}
-
-.skills li:nth-child(odd) {
-  background: #0399ff;
+ol {
+  list-style-type: none;
 }
 
 footer {
@@ -172,7 +115,7 @@ a.social {
 }
 
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
