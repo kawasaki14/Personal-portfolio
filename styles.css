@@ -121,7 +121,6 @@ ol {
 }
 
 .len {
-  /* opacity: 0.2; */
   background: white;
   background: linear-gradient(0deg, white, transparent),
               linear-gradient(180deg, white, transparent),
