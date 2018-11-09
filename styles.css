@@ -79,6 +79,20 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+ol {
+  list-style-type: none;
+}
+
+.m2 {
+  background-color: black;
+  background: url('images/moto1.jpg') no-repeat center;
+  background-size: cover;
+  height: 500px;
+  width: 900px;
+  text-align: center;
+
+}
+
 .tag {
   background-color: #efefef;
   color: black;
